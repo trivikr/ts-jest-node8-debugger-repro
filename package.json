@@ -1,19 +1,14 @@
 {
   "name": "ts-jest-es2017-debugger-repro",
   "version": "1.0.0",
-  "description": "Repro repo for debugger issue with TS target es2017 and ts-jest@20.0.x",
+  "description":
+    "Repro repo for debugger issue with TS target es2017 and ts-jest@20.0.x",
   "main": "index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "test": "npm run build && jest"
   },
-  "keywords": [
-    "Jest",
-    "TypeScript",
-    "es2017",
-    "ts-jest",
-    "debugger"
-  ],
+  "keywords": ["Jest", "TypeScript", "Node 8", "ts-jest", "debugger"],
   "jest": {
     "collectCoverage": true,
     "globals": {
@@ -25,11 +20,7 @@
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.ts$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
+    "moduleFileExtensions": ["ts", "tsx", "js"],
     "mapCoverage": true
   },
   "author": "Trivikram Kamat",
