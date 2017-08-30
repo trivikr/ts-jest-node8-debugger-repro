@@ -35,9 +35,9 @@
   "author": "Trivikram Kamat",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^20.0.7",
-    "jest": "^20.0.4",
-    "ts-jest": "^20.0.13",
-    "typescript": "^2.4.2"
+    "@types/jest": "20.0.7",
+    "jest": "20.0.4",
+    "ts-jest": "20.0.13",
+    "typescript": "2.4.2"
   }
 }
