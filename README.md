@@ -1,5 +1,5 @@
 # ts-jest-node8-debugger-repro
-Repro repo for debugger stopping at incorrect line numbers in source files with [ts-jest@20.0.13](https://github.com/kulshekhar/ts-jest/tree/v20.0.13)
+Repro repo for [debugger stopping at incorrect line numbers](https://github.com/kulshekhar/ts-jest/issues/309) in source files with [ts-jest@20.0.13](https://github.com/kulshekhar/ts-jest/tree/v20.0.13)
 
 Steps to reproduce:
 * `yarn` or `npm install` to install dependencies
