@@ -1,14 +1,19 @@
 {
   "name": "ts-jest-node8-debugger-repro",
   "version": "1.0.0",
-  "description":
-    "Repro repo for debugger stopping at incorrect line numbers in source files with ts-jest@20.0.13",
+  "description": "Repro repo for debugger stopping at incorrect line numbers in source files with ts-jest@20.0.13",
   "main": "index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "test": "npm run build && jest"
   },
-  "keywords": ["Jest", "TypeScript", "Node 8", "ts-jest", "debugger"],
+  "keywords": [
+    "Jest",
+    "TypeScript",
+    "Node 8",
+    "ts-jest",
+    "debugger"
+  ],
   "jest": {
     "collectCoverage": true,
     "globals": {
@@ -20,7 +25,11 @@
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.ts$",
-    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
     "mapCoverage": true
   },
   "author": "Trivikram Kamat",
@@ -28,7 +37,7 @@
   "devDependencies": {
     "@types/jest": "20.0.7",
     "jest": "20.0.4",
-    "ts-jest": "20.0.13",
+    "ts-jest": "20.0.14",
     "typescript": "2.4.2"
   }
 }

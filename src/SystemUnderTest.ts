@@ -1,7 +1,10 @@
 const oddOrEven = async (num: number): Promise<string> => {
-  debugger;
   const returnValue = num % 2 === 0 ? "even" : "odd";
+  
+  
+  debugger;
   return returnValue;
+  
 };
 
 export { oddOrEven };
